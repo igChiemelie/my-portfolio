@@ -1,0 +1,109 @@
+.preload-transitions * {
+    -webkit-transition: none !important;
+    transition: none !important
+}
+
+.border-radius-6 {
+    border-radius: 6px !important
+}
+.mt-2 {
+    margin-top: 2% !important
+}
+
+.mt-10 {
+    margin-top: 10% !important
+}
+.border-radius-8 {
+    border-radius: 8px !important
+}
+.card-animation-1,
+.image-n-margin {
+    margin-top: -50px;
+    -webkit-transition: .3s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.card-animation-1:hover .image-n-margin {
+    margin-top: -80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+.flex-border{
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem
+}
+.flex-border2{
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.flex-border22{
+    /* border-bottom-left-radius: 2rem; */
+    /* border-bottom-right-radius: 2rem; */
+}
+
+.flex-border3{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.flex-border4{
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+.profile-card-i {
+    vertical-align: middle;
+}
+
+/* @media only screen and (max-width: 992px) {
+    .flex-border{
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem
+    }
+    #flex-border2{
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem
+    }
+    
+    #flex-border3{
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem
+    }
+    
+    
+} */
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .controlls {
+        /* display: none !important; */
+         
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+
+    }
+    .controlls .control{
+        margin: 1rem 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .give-pad {
+        padding-top: 1.2rem;
+    }
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) {
+
+    #cards-extended #card-panel-type .card-width,
+    #cards-extended #card-with-analytics .card-width,
+    #cards-extended #gradient-Analytics .card-width {
+        width: 50%
+    }
+}
